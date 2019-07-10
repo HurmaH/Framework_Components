@@ -1,0 +1,12 @@
+Statements written on MySQL server to createdatabase:
+
+use qadbt;
+create table EmployeeInfo(name varchar(20), id int, location varchar(20), age int);
+describe EmployeeInfo;
+insert into EmployeeInfo values('hurma', 09, 'tx',31 );
+insert into EmployeeInfo values('mekan', 10, 'tx',32 );
+insert into EmployeeInfo values('ayna', 12, 'tm',32 );
+insert into EmployeeInfo values('sona', 15, 'ger',30 );
+insert into EmployeeInfo values('sofiya', 16, 'bos',30 );
+select * from EmployeeInfo;
+select * from EmployeeInfo where name = 'sofiya';
